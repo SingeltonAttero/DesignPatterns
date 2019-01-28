@@ -1,5 +1,10 @@
 package patterns.factory.method.trucking;
 
+/**
+ * @author YWeber
+ * project DesignPatterns
+ * Created on 28.01.19
+ */
 public class TransportSelector {
 
     private TransportSelector() {

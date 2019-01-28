@@ -4,6 +4,11 @@ import patterns.factory.method.trucking.Transport;
 import patterns.factory.method.trucking.TransportSelector;
 import patterns.factory.method.trucking.TransportationType;
 
+/**
+ * @author YWeber
+ * project DesignPatterns
+ * Created on 28.01.19
+ */
 public class Main {
 
 

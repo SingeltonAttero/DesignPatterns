@@ -1,9 +1,13 @@
-package patterns.singleton;
+package patterns.singleton.simple;
 
-
-/*
+/**
+ * @author YWeber
+ * project DesignPatterns
+ * Created on 24.01.19
+ *
  * Самая простая релизация шаблона singleton.
  * Нельзя использовать в многопоточной среде.
+ *
  * */
 
 public class SimpleSingleton {
