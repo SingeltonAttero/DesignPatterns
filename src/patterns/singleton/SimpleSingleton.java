@@ -1,5 +1,11 @@
 package patterns.singleton;
 
+
+/*
+ * Самая простая релизация шаблона singleton.
+ * Нельзя использовать в многопоточной среде.
+ * */
+
 public class SimpleSingleton {
 
     private static SimpleSingleton instance;
@@ -13,4 +19,9 @@ public class SimpleSingleton {
         }
         return instance;
     }
+
+    public void message() {
+        System.out.println("Test to singleton");
+    }
+
 }
