@@ -7,11 +7,11 @@ package patterns.facade.os;
  */
 class Power {
 
-    public void off(){
+    void off() {
         System.out.println("System off");
     }
 
-    public void on(){
+    void on() {
         System.out.println("System on");
     }
 }

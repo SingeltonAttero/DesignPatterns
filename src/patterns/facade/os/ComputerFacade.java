@@ -7,11 +7,11 @@ package patterns.facade.os;
  */
 public class ComputerFacade {
 
-    Power power = new Power();
-    DVDRom dvdRom = new DVDRom();
-    HDD hdd = new HDD();
+    private Power power = new Power();
+    private DVDRom dvdRom = new DVDRom();
+    private HDD hdd = new HDD();
 
-    public void copy(){
+    public void copy() {
         power.on();
         dvdRom.load();
         hdd.copyFromDVD(dvdRom);

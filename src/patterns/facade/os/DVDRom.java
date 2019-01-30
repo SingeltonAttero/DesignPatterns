@@ -9,15 +9,15 @@ class DVDRom {
 
     private boolean hasData = false;
 
-    public boolean hasData() {
+    boolean hasData() {
         return hasData;
     }
 
-    public void load(){
+    void load() {
         hasData = true;
     }
 
-    public void upload(){
+    void upload() {
         hasData = false;
     }
 }
